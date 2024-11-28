@@ -1,0 +1,3 @@
+C:/Users/Abdurrahman Hamid/CLionProjects/praktikum-weekly-2/cmake-build-debug/CMakeFiles/praktikum_weekly_2.dir
+C:/Users/Abdurrahman Hamid/CLionProjects/praktikum-weekly-2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Abdurrahman Hamid/CLionProjects/praktikum-weekly-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
