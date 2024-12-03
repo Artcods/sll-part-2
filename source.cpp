@@ -86,3 +86,29 @@ void deleteNodeLast(list &L) {
         cout << "Sudah dihapus" << endl;
     }
 }
+
+void deleteNodeAfter(list &L) {
+    adr P;
+    if (first(L) == nullptr) {
+        first(L) = nullptr;
+    } else {
+        P = next(first(L));
+        first(L) = next(P);
+        next(P) = nullptr;
+        P = first(L);
+    }
+}
+
+void deleteNodeBefore(list &L) {
+    adr P;
+    if (first(L) == nullptr) {
+        first(L) = nullptr;
+    } else {
+        P = first(L);
+        while (next(P) != nullptr) {
+            P = next(P);
+        }
+        next(P) = nullptr;
+    }
+}
+

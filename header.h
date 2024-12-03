@@ -42,6 +42,10 @@ void addNodeAfter(list &L, adr prec, adr P);
 void deleteNodeFirst(list &L);
 // menghapus akhir node ke list
 void deleteNodeLast(list &L);
+// menghapus after node dua dari pertama
+void deleteNodeAfter(list &L);
+// menghapus before node terakhir
+void deleteNodeBefore(list &L);
 
 
 #endif //HEADER_H

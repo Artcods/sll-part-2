@@ -20,6 +20,15 @@ int main() {
     P = new node(30); // node 3
     addNode(L, P);
 
+    P = new node(100); // node 3
+    addNode(L, P);
+
+    P = new node(300); // node 3
+    addNode(L, P);
+
+    P = new node(70); // node 3
+    addNode(L, P);
+
     P = new node(40);
     addNodeLast(L, P);
 
@@ -37,6 +46,12 @@ int main() {
 
     cout << endl << endl;
     deleteNodeLast(L);
+
+    cout << endl << endl;
+    deleteNodeAfter(L);
+
+    cout << endl << endl;
+    deleteNodeBefore(L);
 
     showList(L);
     return 0;
